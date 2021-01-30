@@ -26,9 +26,9 @@ end
 
 def return_string_array(array)
   i = 0
-  new = []
+  new_arr = []
   while i < array.length
-    new << array[i].to_s
+    new_arr << array[i].to_s
     i += 1
   end
   puts new
