@@ -31,5 +31,5 @@ def return_string_array(array)
     new_arr << array[i].to_s
     i += 1
   end
-  puts new
+  new_arr
 end
