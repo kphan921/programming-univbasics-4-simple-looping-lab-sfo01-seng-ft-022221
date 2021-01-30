@@ -5,6 +5,7 @@ def loop_message_five_times(message)
   while count < 5
     puts message
     count += 1
+  end
 end
 
 def loop_message_n_times(array, limit)
@@ -12,6 +13,7 @@ def loop_message_n_times(array, limit)
   while count < limit
     puts message
     count += 1
+  end
 end
 
 def output_array(array)
@@ -19,11 +21,15 @@ def output_array(array)
   while count < array.length
     puts array[count]
     count += 1
+  end
 end
 
 def return_string_array(array)
   i = 0
+  new = []
   while i < array.length
-    
+    new << array[i].to_s
     i += 1
+  end
+  puts new
 end
